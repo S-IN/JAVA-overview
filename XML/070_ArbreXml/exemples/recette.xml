@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE recette SYSTEM "recette.dtd">
+
+<recette>
+   <titre>Cocktail China Town</titre>
+   <note>***</note>
+  
+   <infosGenerales>
+      <nombre>1</nombre>
+      <temps unite="minutes">10</temps>
+      <cuisson>pas de cuisson</cuisson>
+      <cout>raisonnable</cout>
+      <pays>Chine</pays>
+      <difficulte>facile</difficulte>
+   </infosGenerales>
+   
+   <ingredients>
+      <ingredient>1 mesure de saké</ingredient>
+      <ingredient>1/2 mesure de Martini blanc sec</ingredient>
+      <ingredient>1 mesure de jus de fruit de la passion</ingredient>
+      <ingredient>1/2 mesure de jus de litchi ou de mangue</ingredient>
+      <ingredient>1 trait de jus de citron</ingredient>
+      <ingredient>1 trait de sirop de pêche</ingredient>
+   </ingredients>
+   <texteRecette>
+      Dans un saladier, mélanger les ingrédients. Secouez pendant 30 secondes puis versez dans un verre decoré d'une rondelle de citron.
+   </texteRecette>
+</recette>

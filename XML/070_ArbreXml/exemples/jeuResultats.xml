@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE RACINE [
+<!ELEMENT RACINE (COLONNE*, LIGNE*)>
+   <!ELEMENT COLONNE (NomColonne, TailleColonne, ClasseColonne)>
+      <!ELEMENT NomColonne (#PCDATA)>
+      <!ELEMENT TailleColonne (#PCDATA)>
+      <!ELEMENT ClasseColonne (#PCDATA)>
+   <!ELEMENT LIGNE (N_CONT, NOM, PRENOM)>
+      <!ELEMENT N_CONT (#PCDATA)>
+      <!ELEMENT NOM (#PCDATA)>
+      <!ELEMENT PRENOM (#PCDATA)>
+]>
+
+<RACINE>
+   <COLONNE>
+      <NomColonne>N_CONT</NomColonne>
+      <TailleColonne>11</TailleColonne>
+      <ClasseColonne>java.lang.Integer</ClasseColonne>
+   </COLONNE>
+   <COLONNE>
+      <NomColonne>NOM</NomColonne>
+      <TailleColonne>50</TailleColonne>
+      <ClasseColonne>java.lang.String</ClasseColonne>
+   </COLONNE>
+   <COLONNE>
+      <NomColonne>PRENOM</NomColonne>
+      <TailleColonne>40</TailleColonne>
+      <ClasseColonne>java.lang.String</ClasseColonne>
+   </COLONNE>
+   <LIGNE>
+      <N_CONT>13</N_CONT>
+      <NOM>VENDU</NOM>
+      <PRENOM>Jean Francois</PRENOM>
+   </LIGNE>
+   <LIGNE>
+      <N_CONT>14</N_CONT>
+      <NOM>REMY</NOM>
+      <PRENOM>Martine</PRENOM>
+   </LIGNE>
+</RACINE>

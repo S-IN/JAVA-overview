@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE font [
+<!ELEMENT font (nom, taille)>
+   <!ELEMENT nom    (#PCDATA)>
+   <!ELEMENT taille (#PCDATA)>
+   <!ATTLIST taille unite CDATA 'pt'>
+]>
+
+<font>
+
+<!-- Nom et taille de la police --> 
+   <nom>Arial</nom>
+   <taille unite = "pt">36</taille>
+</font>

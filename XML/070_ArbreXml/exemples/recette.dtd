@@ -1,0 +1,17 @@
+<!ELEMENT recette (titre, note, infosGenerales, ingredients, texteRecette)>
+   <!ELEMENT titre (#PCDATA)>
+   <!ELEMENT note (#PCDATA)>
+
+   <!ELEMENT infosGenerales (nombre, temps, cuisson, cout, pays, difficulte)>
+      <!ELEMENT nombre (#PCDATA)>
+      <!ELEMENT temps (#PCDATA)>
+      <!ATTLIST temps unite (minutes|heures|jours) "minutes">
+      <!ELEMENT cuisson (#PCDATA)>
+      <!ELEMENT cout (#PCDATA)>
+      <!ELEMENT pays (#PCDATA)>
+      <!ELEMENT difficulte (#PCDATA)>
+
+   <!ELEMENT ingredients (ingredient)*>
+      <!ELEMENT ingredient (#PCDATA)>
+
+   <!ELEMENT texteRecette (#PCDATA)> 

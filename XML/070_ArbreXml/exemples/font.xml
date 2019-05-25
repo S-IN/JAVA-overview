@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE font SYSTEM "font.dtd">
+
+<font>
+
+<!-- Nom et taille de la police --> 
+   <name>Arial</name>
+   <size>16</size>
+</font>
